@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "5_3.dtd">
+<libros>
+<Libro isbn="BLA97896847" nivel="02" fecha="1975" paginas="678" autor="Umberto Eco" editor="Fulanito di Sousa">
+  <Titulo>El nombre de la Rosa</Titulo>
+  <Comentarios>Gran libro</Comentarios>
+  <Categoria>Novela Historica</Categoria>
+  <Precio moneda="eur"> Veintiuno</Precio>
+</Libro>
+</libros>
