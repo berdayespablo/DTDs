@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE song [
+<!ELEMENT songs (song+)>
 <!ELEMENT song (title, composers, producers, publisher, artists)>
 <!ELEMENT composers (composer)>
 <!ELEMENT composer (nombre, apellidos)>
@@ -11,8 +12,13 @@
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT publisher (#PCDATA)>
 <!ELEMENT artist (#PCDATA)>
+<!ELEMENT fecha (#EMPTY)>
+<!ATTLIST fecha dia CDATA #REQUIRED>
+<!ATTLIST fecha mes CDATA #REQUIRED>
+<!ATTLIST fecha anio CDATA #REQUIRED>
 <!ATTLIST song length CDATA #REQUIRED>
 <!ATTLIST song anio CDATA #REQUIRED>
+<!ATTLIST song titulo CDATA #REQUIRED>
 ]>
 <song length="6.20" anio="1978">
   <title>Hot Cop</title>
